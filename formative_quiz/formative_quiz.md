@@ -2,6 +2,7 @@
 
 - [Formative Quiz](#formative-quiz)
   - [Disclaimer](#disclaimer)
+  - [Links](#links)
   - [Question 01](#question-01)
   - [Question 02](#question-02)
   - [Question 03](#question-03)
@@ -17,6 +18,17 @@
 ## Disclaimer
 
 Compiled. I do not know if the answers are correct, though.
+
+## Links
+
+You can navigate to
+- [google.com](google.com)
+- [youtube.com](youtube.com)
+- [wikipedia.org](wikipedia.org)
+- [stackoverflow.com](stackoverflow.com)
+- [immersive-web.github.io](immersive-web.github.io)
+- [doc.babylonjs.com](doc.babylonjs.com)
+- [npmjs.com](npmjs.com)
 
 ## Question 01
 
