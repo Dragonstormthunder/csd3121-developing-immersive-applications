@@ -198,6 +198,6 @@ export class HelloSphere extends AbstractMesh implements HelloMesh {
         }
       )
     )
-
   }
+
 }
