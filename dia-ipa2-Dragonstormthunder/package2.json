@@ -7,14 +7,14 @@
         "dev": "vite",
         "build": "tsc && vite build",
         "preview": "vite preview",
-        "test": "concurrently --kill-others \"vite --port 5173\" \"wait-on http://localhost:5173 && vitest --run\"",
-        "test:ui": "concurrently --kill-others \"vite --port 5173\" \"wait-on http://localhost:5173 && vitest --ui\"",
+        "test": "concurrently --kill-others 'vite --port 5173' 'wait-on http://localhost:5173 && vitest --run'",
+        "test:ui": "concurrently --kill-others 'vite --port 5173' 'wait-on http://localhost:5173 && vitest --ui'",
         "test:basic": "vitest --reporter=verbose --run -t 'Basic tests'",
         "test:mockdome": "vitest --reporter=verbose --run -t 'Mocked VideoDome'",
         "test:primitive": "vitest --reporter=verbose --run -t 'primitive meshes'",
         "test:message": "vitest --reporter=verbose --run -t 'message displayed'",
-        "test:dome": "concurrently --kill-others \"vite --port 5173\" \"wait-on http://localhost:5173 && vitest --reporter=verbose --run -t \"VideoDome object\"\"",
-        "test:camera": "concurrently --kill-others \"vite --port 5173\" \"wait-on http://localhost:5173 && vitest --reporter=verbose --run -t \"ArcRotateCamera object\"\""
+        "test:dome": "concurrently --kill-others 'vite --port 5173' 'wait-on http://localhost:5173 && vitest --reporter=verbose --run -t \"VideoDome object\"'",
+        "test:camera": "concurrently --kill-others 'vite --port 5173' 'wait-on http://localhost:5173 && vitest --reporter=verbose --run -t \"ArcRotateCamera object\"'"
     },
     "devDependencies": {
         "@vitest/ui": "^3.0.5",

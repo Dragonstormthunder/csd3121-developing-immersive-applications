@@ -23,7 +23,6 @@ import {
   TransformNode,
   UniversalCamera,
   Vector3,
-  VideoDome,
   WebXRDefaultExperience,
   WebXRFeatureName,
   WebXRFeaturesManager,

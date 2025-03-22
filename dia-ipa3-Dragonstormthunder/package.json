@@ -1,0 +1,37 @@
+{
+    "name": "dia-ipa3",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "test": "vitest",
+        "test:browser": "concurrently --kill-others \"vite --port 5173\" \"wait-on http://localhost:5173 && vitest --run\"",
+        "test:browser-ui": "concurrently --kill-others \"vite --port 5173\" \"wait-on http://localhost:5173 && vitest --ui\"",
+        "test:basic": "vitest --reporter=verbose --run -t \"Basic tests\"",
+        "test:primitive": "vitest --reporter=verbose --run -t \"primitive meshes\"",
+        "test:interaction": "vitest --reporter=verbose --run -t \"Object interaction\"",
+        "test:dynamic": "vitest --reporter=verbose --run -t \"Dynamic UI\"",
+        "test:webxr": "vitest --reporter=verbose --run -t \"WebXR\"",
+        "test:message": "vitest --reporter=verbose --run -t \"message displayed\"",
+        "test:dragon": "vitest --reporter=verbose --run -t \"custom dragon\""
+    },
+    "devDependencies": {
+        "@vitest/ui": "^3.0.5",
+        "concurrently": "^9.1.2",
+        "jsdom": "^26.0.0",
+        "puppeteer": "^24.2.0",
+        "typescript": "^5.7.3",
+        "vite": "^6.1.0",
+        "vitest": "^3.0.9",
+        "wait-on": "^8.0.2"
+    },
+    "dependencies": {
+        "@babylonjs/core": "^7.53.3",
+        "@babylonjs/gui": "^7.53.3",
+        "@babylonjs/loaders": "^7.53.3",
+        "canvas": "^3.1.0"
+    }
+}
